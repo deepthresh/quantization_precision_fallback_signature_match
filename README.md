@@ -1,11 +1,11 @@
-# multimodal_jd003
+# quantization_precision_fallback_signature_match
 
 **给多模态算法研究员·量化位宽与精度回退算一个特征指纹并定位可疑片段。**
 
-`multimodal_jd003` —— 通过字符级与结构级特征识别多模态算法研究员·量化位宽与精度回退的痕迹，给出密度与命中位置
+`quantization_precision_fallback_signature_match` —— 通过字符级与结构级特征识别多模态算法研究员·量化位宽与精度回退的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`multimodal_jd003.py` 拷走就能用
+- 单文件，`quantization_precision_fallback_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install deepthresh-multimodal_jd003
+pip install deepthresh-quantization_precision_fallback_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-multimodal_jd003 --help
+quantization_precision_fallback_signature_match --help
 ```
 
-也可以不用安装，直接把 `multimodal_jd003.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `quantization_precision_fallback_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ multimodal_jd003 --help
 ## 用法
 
 ```bash
-python multimodal_jd003.py --file input.txt
-python multimodal_jd003.py --text "示例内容"
-python multimodal_jd003.py --file input.txt --json
+python quantization_precision_fallback_signature_match.py --file input.txt
+python quantization_precision_fallback_signature_match.py --text "示例内容"
+python quantization_precision_fallback_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python multimodal_jd003.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_multimodal_jd003.py
+python test_quantization_precision_fallback_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_multimodal_jd003.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/deepthresh/multimodal_jd003>
+- GitHub 仓库：<https://github.com/deepthresh/quantization_precision_fallback_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_multimodal_jd003.py
 deepthresh 做多模态算法研究员·量化位宽与精度回退相关的问题，方向对标百度的初级多模态算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://deepthresh.github.io>
-- 仓库：<https://github.com/deepthresh/multimodal_jd003>
+- 仓库：<https://github.com/deepthresh/quantization_precision_fallback_signature_match>
 
 ## 许可
 

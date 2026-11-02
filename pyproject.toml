@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "deepthresh-multimodal_jd003"
+name = "deepthresh-quantization_precision_fallback_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别多模态算法研究员·量化位宽与精度回退的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://deepthresh.github.io"
-Repository = "https://github.com/deepthresh/multimodal_jd003"
-Issues = "https://github.com/deepthresh/multimodal_jd003/issues"
+Repository = "https://github.com/deepthresh/quantization_precision_fallback_signature_match"
+Issues = "https://github.com/deepthresh/quantization_precision_fallback_signature_match/issues"
 
 [project.scripts]
-multimodal_jd003 = "multimodal_jd003:main"
+quantization_precision_fallback_signature_match = "quantization_precision_fallback_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["multimodal_jd003"]
+py-modules = ["quantization_precision_fallback_signature_match"]
